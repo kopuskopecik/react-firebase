@@ -2,7 +2,6 @@
 # React Firebase Application
 The application retrieves data from https://dummyapi.io/data/api Restfull api and is authenticated by Google Cloud firebase service. All these execution: Login, logout, signup and reset password is done by it. 
 
-searching films using the text input in the main page.
 
 - axios
 - material-ui/core
