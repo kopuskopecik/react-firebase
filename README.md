@@ -38,7 +38,7 @@ yarn
 ## Firebase
 Sign up firebase and enter the credentials into env file like below:
 
-##.env file
+.env file
 
 ```
 REACT_APP_API_KEY=
