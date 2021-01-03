@@ -1,20 +1,24 @@
 
-# IMDB
-The application retrieves from https://api.themoviedb.org/3/search/movie Restfull api and searching films using the text input in the main page.
+# React Firebase Application
+The application retrieves data from https://dummyapi.io/data/api Restfull api and is authenticated by Google Cloud firebase service. All these execution: Login, logout, signup and reset password is done by it. 
+
+searching films using the text input in the main page.
 
 - axios
-- node-sass
-- styled-components
+- material-ui/core
+- material-ui/icons
 - react-router-dom
+- date-fns
+- firebase
+- formik
+- yup
 
 ## Restful API
-Film information was retrieved from [themoviedb](https://www.themoviedb.org/documentation/api)
+User information was retrieved from [dummyapi](https://dummyapi.io/)
 
 ## Overview
 
-![Alt Text](imdb.gif)
-
-[Live Link from heroku](https://warm-basin-34700.herokuapp.com/)
+![Alt Text](firebase.gif)
 
 
 ## Installation and Dependencies
@@ -22,7 +26,7 @@ Film information was retrieved from [themoviedb](https://www.themoviedb.org/docu
 Please clone the repository like below:
 
 ```bash
-git clone https://github.com/kopuskopecik/imdb.git
+git clone https://github.com/kopuskopecik/react-firebase.git
 
 ```
 
@@ -31,6 +35,26 @@ cd imdb/
 
 yarn
 ```
+
+## Firebase
+Sign up firebase and enter the credentials into env file like below:
+
+##.env file
+
+```
+REACT_APP_API_KEY=
+REACT_APP_AUTH_DOMAIN=
+REACT_APP_DATABASE_URL=
+REACT_APP_PROJECT_ID=
+REACT_APP_STORAGE_BUCKET=
+REACT_APP_MESSAGING_SENDER_ID=
+REACT_APP_ID=
+REACT_APP_API_TOKEN=
+
+REACT_APP_API_BASE_URL =
+REACT_APP_API_TOKEN =
+```
+
 
 ## Usage
 
@@ -49,21 +73,3 @@ Now everything is ready :+1:
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
-
-
-##.env file
-
-```
-REACT_APP_API_KEY=
-REACT_APP_AUTH_DOMAIN=
-REACT_APP_DATABASE_URL=
-REACT_APP_PROJECT_ID=
-REACT_APP_STORAGE_BUCKET=
-REACT_APP_MESSAGING_SENDER_ID=
-REACT_APP_ID=
-REACT_APP_API_TOKEN=
-
-REACT_APP_API_BASE_URL =
-REACT_APP_API_TOKEN =
-```
